@@ -16,8 +16,9 @@ body{
 .top-home-main {
   background: url("../img/background.jpg")center bottom no-repeat;
   width: 100%;
-  height: 55vh;
+  height: 375px;
   background-size: cover;
+  position: relative;
 
 }
 
@@ -33,10 +34,13 @@ body{
 .header > img {
   margin-top: 25px;
   max-width: 160px;
+  position: static;
+  cursor: pointer;
 }
 
 .top-logo {
   margin-left: 25px;
+  position: static;
 
 }
 
@@ -60,8 +64,8 @@ body{
 .top-main-text > h3 > a {
   color: #C76935;
 }
-.top-main-text > h3 > span {
-  color:#B2BA3B;
+span {
+  color:#BCD436;
 }
 
 .top-main-text > h1 {
@@ -73,24 +77,27 @@ body{
 }
 
 .top-button {
-  color: #B2BA3B;
+  color: #BCD436;
+  font-size: 14px;
+  letter-spacing: .2em;
   font-weight: bold;
   background: none;
   border: 2px solid #B2BA3B;
   border-radius: 25px;
-  width:325px;
-  height: 35px;
-  margin: auto;
+  width:300px;
+  height: 26px;
+  margin:auto;
   bottom:0;
-  padding-top: 15px;
+  padding-top: 12px;
 
 }
 
 .main-text {
   width: 100%;
-  height:55vh;
+  height:750px;
   background: #F0F0F0;
   margin: auto;
+  margin-top: 15px;
 }
 
 .main-text > p {
@@ -100,6 +107,9 @@ body{
   font-size: 26px;
   text-align: center;
   line-height: 190%;
+  padding-top: 35px;
+  font-weight: 100;
+
 }
 
 .main-text > p > a {
@@ -107,11 +117,50 @@ body{
 }
 
 .pencil-wrench {
-  margin-left:15%
+  margin-left:40%;
+}
+
+.heres-how {
+  text-align: center;
+  font-size: 55px;
+  color: #40666D;
+  margin-left: 20px;
   margin: auto;
+}
+
+.middle-logo-section {
+  width: 85%;
+  height: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 }
 
+.logo1{
+  padding-top: 80px;
+}
+.logo2-info {
+  text-align: center;
+  font-size: 12px;
+  font: Helvetica;
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.logo2-info-learn {
+  padding-top: 30px;
+}
+
+.logo3 {
+  padding-top: 70px;
+}
+
+.logo4-info {
+  font-size: 15px;
+  color: #D4DBDE;
+}
 @media (min-width: 700px) {
   .top-home-main {
     display: ;
